@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BNRItemsViewController.h
 //  0526NMTel
 //
 //  Created by Zhixue Li on 5/26/15.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BNRDetailViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface BNRItemsViewController : UITableViewController
 
 @end
-

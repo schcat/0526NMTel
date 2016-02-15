@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="14F1021" minimumToolsVersion="Xcode 7.0">
+    <entity name="BNRAssetType" syncable="YES">
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="items" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NMTelItem" syncable="YES"/>
+    </entity>
+    <entity name="NMTelItem" syncable="YES">
+        <attribute name="cellPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landLine" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="Transformable" valueTransformerName="BNRImageTransformer" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="NMTelItem" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="BNRAssetType" positionX="-27" positionY="63" width="128" height="75"/>
+    </elements>
+</model>

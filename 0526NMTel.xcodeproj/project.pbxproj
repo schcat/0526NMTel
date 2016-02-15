@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		6977D1C01B1495760081CA46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6977D1BF1B1495760081CA46 /* main.m */; };
 		6977D1C31B1495760081CA46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6977D1C21B1495760081CA46 /* AppDelegate.m */; };
-		6977D1C61B1495760081CA46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6977D1C51B1495760081CA46 /* ViewController.m */; };
-		6977D1C91B1495760081CA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6977D1C71B1495760081CA46 /* Main.storyboard */; };
 		6977D1CB1B1495760081CA46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6977D1CA1B1495760081CA46 /* Images.xcassets */; };
-		6977D1CE1B1495760081CA46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6977D1CC1B1495760081CA46 /* LaunchScreen.xib */; };
 		6977D1DA1B1495760081CA46 /* _526NMTelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6977D1D91B1495760081CA46 /* _526NMTelTests.m */; };
+		6977D1E51B1497270081CA46 /* BNRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6977D1E41B1497270081CA46 /* BNRItemsViewController.m */; };
+		6977D1EB1B14BE0D0081CA46 /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6977D1EA1B14BE0D0081CA46 /* BNRItemStore.m */; };
+		6977D2081B195E5C0081CA46 /* BNRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6977D2061B195E5C0081CA46 /* BNRDetailViewController.m */; };
+		6977D2091B195E5C0081CA46 /* BNRDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6977D2071B195E5C0081CA46 /* BNRDetailViewController.xib */; };
+		69A6AD891C565BE00039D314 /* BNRImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A6AD881C565BE00039D314 /* BNRImageTransformer.m */; };
+		69BA37431C55C3870090E72D /* BNRImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BA37421C55C3870090E72D /* BNRImageStore.m */; };
+		69D86D3C1C5F5E8B003F6A06 /* NMTel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69D86D3A1C5F5E8B003F6A06 /* NMTel.xcdatamodeld */; };
+		69D86D3F1C5FA242003F6A06 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D86D3E1C5FA242003F6A06 /* BNRItem.m */; };
+		69E9A95C1B48AF1D0095B29C /* BNRItemStore2.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E9A95B1B48AF1D0095B29C /* BNRItemStore2.m */; };
+		69E9A95E1B4979BF0095B29C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E9A95D1B4979BF0095B29C /* Default-568h@2x.png */; };
+		69F8D1451B1E075500E95D73 /* BNRItemsViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F8D1441B1E075500E95D73 /* BNRItemsViewController2.m */; };
+		69F8D14B1B20AE8200E95D73 /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F8D14A1B20AE8200E95D73 /* Hypno.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +36,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6977D1BA1B1495760081CA46 /* 0526NMTel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 0526NMTel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6977D1BA1B1495760081CA46 /* NMTel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMTel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6977D1BE1B1495760081CA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6977D1BF1B1495760081CA46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6977D1C11B1495760081CA46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6977D1C21B1495760081CA46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6977D1C41B1495760081CA46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6977D1C51B1495760081CA46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6977D1C81B1495760081CA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6977D1CA1B1495760081CA46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6977D1CD1B1495760081CA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6977D1D31B1495760081CA46 /* 0526NMTelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 0526NMTelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6977D1D81B1495760081CA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6977D1D91B1495760081CA46 /* _526NMTelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _526NMTelTests.m; sourceTree = "<group>"; };
+		6977D1E31B1497270081CA46 /* BNRItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemsViewController.h; sourceTree = "<group>"; };
+		6977D1E41B1497270081CA46 /* BNRItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemsViewController.m; sourceTree = "<group>"; };
+		6977D1E91B14BE0D0081CA46 /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
+		6977D1EA1B14BE0D0081CA46 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
+		6977D2051B195E5C0081CA46 /* BNRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDetailViewController.h; sourceTree = "<group>"; };
+		6977D2061B195E5C0081CA46 /* BNRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDetailViewController.m; sourceTree = "<group>"; };
+		6977D2071B195E5C0081CA46 /* BNRDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRDetailViewController.xib; sourceTree = "<group>"; };
+		69A6AD871C565BE00039D314 /* BNRImageTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRImageTransformer.h; sourceTree = "<group>"; };
+		69A6AD881C565BE00039D314 /* BNRImageTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRImageTransformer.m; sourceTree = "<group>"; };
+		69BA37411C55C3870090E72D /* BNRImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRImageStore.h; sourceTree = "<group>"; };
+		69BA37421C55C3870090E72D /* BNRImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRImageStore.m; sourceTree = "<group>"; };
+		69D86D3B1C5F5E8B003F6A06 /* NMTel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NMTel.xcdatamodel; sourceTree = "<group>"; };
+		69D86D3D1C5FA242003F6A06 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		69D86D3E1C5FA242003F6A06 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		69E9A95A1B48AF1D0095B29C /* BNRItemStore2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore2.h; sourceTree = "<group>"; };
+		69E9A95B1B48AF1D0095B29C /* BNRItemStore2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore2.m; sourceTree = "<group>"; };
+		69E9A95D1B4979BF0095B29C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		69F8D1431B1E075500E95D73 /* BNRItemsViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemsViewController2.h; sourceTree = "<group>"; };
+		69F8D1441B1E075500E95D73 /* BNRItemsViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemsViewController2.m; sourceTree = "<group>"; };
+		69F8D14A1B20AE8200E95D73 /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +88,7 @@
 		6977D1B11B1495760081CA46 = {
 			isa = PBXGroup;
 			children = (
+				69E9A95D1B4979BF0095B29C /* Default-568h@2x.png */,
 				6977D1BC1B1495760081CA46 /* 0526NMTel */,
 				6977D1D61B1495760081CA46 /* 0526NMTelTests */,
 				6977D1BB1B1495760081CA46 /* Products */,
@@ -72,7 +98,7 @@
 		6977D1BB1B1495760081CA46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6977D1BA1B1495760081CA46 /* 0526NMTel.app */,
+				6977D1BA1B1495760081CA46 /* NMTel.app */,
 				6977D1D31B1495760081CA46 /* 0526NMTelTests.xctest */,
 			);
 			name = Products;
@@ -83,11 +109,26 @@
 			children = (
 				6977D1C11B1495760081CA46 /* AppDelegate.h */,
 				6977D1C21B1495760081CA46 /* AppDelegate.m */,
-				6977D1C41B1495760081CA46 /* ViewController.h */,
-				6977D1C51B1495760081CA46 /* ViewController.m */,
-				6977D1C71B1495760081CA46 /* Main.storyboard */,
+				6977D2051B195E5C0081CA46 /* BNRDetailViewController.h */,
+				6977D2061B195E5C0081CA46 /* BNRDetailViewController.m */,
+				69D86D3A1C5F5E8B003F6A06 /* NMTel.xcdatamodeld */,
+				69D86D3D1C5FA242003F6A06 /* BNRItem.h */,
+				69D86D3E1C5FA242003F6A06 /* BNRItem.m */,
+				69BA37411C55C3870090E72D /* BNRImageStore.h */,
+				69BA37421C55C3870090E72D /* BNRImageStore.m */,
+				6977D2071B195E5C0081CA46 /* BNRDetailViewController.xib */,
+				6977D1E31B1497270081CA46 /* BNRItemsViewController.h */,
+				69F8D1431B1E075500E95D73 /* BNRItemsViewController2.h */,
+				69F8D1441B1E075500E95D73 /* BNRItemsViewController2.m */,
+				69A6AD871C565BE00039D314 /* BNRImageTransformer.h */,
+				69A6AD881C565BE00039D314 /* BNRImageTransformer.m */,
+				69F8D14A1B20AE8200E95D73 /* Hypno.png */,
+				6977D1E91B14BE0D0081CA46 /* BNRItemStore.h */,
+				6977D1EA1B14BE0D0081CA46 /* BNRItemStore.m */,
+				69E9A95A1B48AF1D0095B29C /* BNRItemStore2.h */,
+				69E9A95B1B48AF1D0095B29C /* BNRItemStore2.m */,
+				6977D1E41B1497270081CA46 /* BNRItemsViewController.m */,
 				6977D1CA1B1495760081CA46 /* Images.xcassets */,
-				6977D1CC1B1495760081CA46 /* LaunchScreen.xib */,
 				6977D1BD1B1495760081CA46 /* Supporting Files */,
 			);
 			path = 0526NMTel;
@@ -136,7 +177,7 @@
 			);
 			name = 0526NMTel;
 			productName = 0526NMTel;
-			productReference = 6977D1BA1B1495760081CA46 /* 0526NMTel.app */;
+			productReference = 6977D1BA1B1495760081CA46 /* NMTel.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6977D1D21B1495760081CA46 /* 0526NMTelTests */ = {
@@ -199,9 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6977D1C91B1495760081CA46 /* Main.storyboard in Resources */,
-				6977D1CE1B1495760081CA46 /* LaunchScreen.xib in Resources */,
+				6977D2091B195E5C0081CA46 /* BNRDetailViewController.xib in Resources */,
 				6977D1CB1B1495760081CA46 /* Images.xcassets in Resources */,
+				69F8D14B1B20AE8200E95D73 /* Hypno.png in Resources */,
+				69E9A95E1B4979BF0095B29C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +261,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6977D1C61B1495760081CA46 /* ViewController.m in Sources */,
 				6977D1C31B1495760081CA46 /* AppDelegate.m in Sources */,
+				69BA37431C55C3870090E72D /* BNRImageStore.m in Sources */,
+				6977D2081B195E5C0081CA46 /* BNRDetailViewController.m in Sources */,
+				6977D1E51B1497270081CA46 /* BNRItemsViewController.m in Sources */,
+				69D86D3C1C5F5E8B003F6A06 /* NMTel.xcdatamodeld in Sources */,
 				6977D1C01B1495760081CA46 /* main.m in Sources */,
+				69F8D1451B1E075500E95D73 /* BNRItemsViewController2.m in Sources */,
+				6977D1EB1B14BE0D0081CA46 /* BNRItemStore.m in Sources */,
+				69E9A95C1B48AF1D0095B29C /* BNRItemStore2.m in Sources */,
+				69A6AD891C565BE00039D314 /* BNRImageTransformer.m in Sources */,
+				69D86D3F1C5FA242003F6A06 /* BNRItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +292,6 @@
 			targetProxy = 6977D1D41B1495760081CA46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6977D1C71B1495760081CA46 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6977D1C81B1495760081CA46 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6977D1CC1B1495760081CA46 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6977D1CD1B1495760081CA46 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6977D1DB1B1495760081CA46 /* Debug */ = {
@@ -349,7 +380,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 0526NMTel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NMTel;
 			};
 			name = Debug;
 		};
@@ -359,7 +390,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 0526NMTel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NMTel;
 			};
 			name = Release;
 		};
@@ -416,6 +447,7 @@
 				6977D1DF1B1495760081CA46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6977D1E01B1495760081CA46 /* Build configuration list for PBXNativeTarget "0526NMTelTests" */ = {
 			isa = XCConfigurationList;
@@ -424,8 +456,22 @@
 				6977D1E21B1495760081CA46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69D86D3A1C5F5E8B003F6A06 /* NMTel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69D86D3B1C5F5E8B003F6A06 /* NMTel.xcdatamodel */,
+			);
+			currentVersion = 69D86D3B1C5F5E8B003F6A06 /* NMTel.xcdatamodel */;
+			path = NMTel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6977D1B21B1495760081CA46 /* Project object */;
 }

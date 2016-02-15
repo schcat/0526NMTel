@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "BNRItemsViewController.h"
+#import "BNRItemsViewController2.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +18,30 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //a.初始化一个tabBar控制器
+    self.tb = [[UITabBarController alloc]init];
+    //设置控制器为Window的根控制器
+    self.window.rootViewController = self.tb;
+    
+    BNRItemsViewController *c1 = [[BNRItemsViewController alloc] init];
+    self.navController1 = [[UINavigationController alloc]
+                           initWithRootViewController:c1];
+    _navController1.tabBarItem.title = @"苏州";
+    _navController1.tabBarItem.image=[UIImage imageNamed:@"Hypno"];
+    
+    BNRItemsViewController2 *c2 = [[BNRItemsViewController2 alloc]init];
+    
+    self.navController2 = [[UINavigationController alloc]
+                           initWithRootViewController:c2];
+    _navController2.tabBarItem.title = @"上海";
+    _navController2.tabBarItem.image=[UIImage imageNamed:@"Hypno"];
+    
+    self.tb.viewControllers = @[self.navController1, self.navController2];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }
